@@ -43,4 +43,9 @@ chmod 775 /var/www/sites
 
 service mysql start
 
+sudo apt-get update | sudo apt-get install goaccess | curl -sL https://deb.nodesource.com/setup_0.12 | sudo apt-get install -y nodejs | 
+npm install 
+ 
+
+
 /usr/bin/ajenti-panel
